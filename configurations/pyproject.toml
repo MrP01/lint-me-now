@@ -1,2 +1,21 @@
 [tool.black]
-line-length = 120
+line-length = 150
+
+[tool.isort]
+profile = "black"
+line_length = 150
+
+[tool.pylint.MASTER]
+max-line-length = 150
+
+[tool.pylint.messages_control]
+disable = [
+    "invalid-name",
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "unspecified-encoding",
+    "attribute-defined-outside-init",
+    "wildcard-import",
+    "unused-wildcard-import",
+]

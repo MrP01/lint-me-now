@@ -15,42 +15,18 @@
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "ignorePatterns": [
-    "node_modules/",
-    "stuff/",
-    "scripts/",
-    "resources/",
-    "static/",
-    "webpack/",
-    "tasks/",
-    "build/"
-  ],
+  "ignorePatterns": ["node_modules/", "stuff/", "scripts/", "resources/", "static/", "webpack/", "tasks/", "build/"],
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
+    "indent": ["error", 2],
     "max-len": [
       "warn",
       {
         "code": 120
       }
     ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "eol-last": [
-      "error",
-      "always"
-    ]
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "eol-last": ["error", "always"]
   }
 }
