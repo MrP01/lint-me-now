@@ -7,5 +7,5 @@ indent_style = space
 insert_final_newline = true
 max_line_length = 150
 
-[{*.py,*.pyw}]
+[*.py]
 indent_size = 4
