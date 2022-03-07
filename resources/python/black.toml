@@ -1,5 +1,5 @@
 ["pyproject.toml".tool.black]
-line-length = 120
+line-length = 150
 
 [[".pre-commit-config.yaml".repos]]
 repo = "https://github.com/psf/black"

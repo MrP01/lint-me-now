@@ -1,6 +1,3 @@
-[nitpick]
-minimum_version = "0.10.0"
-
 [nitpick.styles]
 include = [
   "resources/javascript/package-json",

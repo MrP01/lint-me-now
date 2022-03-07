@@ -1,6 +1,3 @@
-[nitpick]
-minimum_version = "0.10.0"
-
 [nitpick.styles]
 include = [
   "resources/python/37",
@@ -21,3 +18,6 @@ include = [
   # perhaps? "resources/python/sonar-python",
   # doesn't really fit: "resources/python/readthedocs",
 ]
+
+[".editorconfig"."*.py"]
+indent_size = 4

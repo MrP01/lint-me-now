@@ -21,7 +21,7 @@
     "max-len": [
       "warn",
       {
-        "code": 120
+        "code": 150
       }
     ],
     "linebreak-style": ["error", "unix"],

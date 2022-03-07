@@ -1,0 +1,8 @@
+[[".clang-format".contains]]
+line = "ColumnLimit: 150"
+
+[[".clang-format".contains]]
+line = "AccessModifierOffset: -1"
+
+[".editorconfig".Makefile]
+indent_style = "tab"

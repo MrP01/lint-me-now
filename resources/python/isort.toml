@@ -1,5 +1,5 @@
 ["setup.cfg".isort]
-line_length = 120
+line_length = 150
 skip = ".tox,build"
 known_first_party = "tests"
 
