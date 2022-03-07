@@ -8,9 +8,9 @@ include = [
   "resources/any/hooks",
   "resources/shell/bashate",
 
-  # TODO: "./resources/any/markdownlint",
-  # TODO: "./resources/shell/shellcheck",
-  # maybe? "./resources/any/commitizen",
+  # TODO: "resources/any/markdownlint",
+  # TODO: "resources/shell/shellcheck",
+  # maybe? "resources/any/commitizen",
 ]
 
 [[".gitignore".contains]]
