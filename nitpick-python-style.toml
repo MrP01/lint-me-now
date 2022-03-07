@@ -21,3 +21,6 @@ include = [
 
 [".editorconfig"."*.py"]
 indent_size = 4
+
+[[".gitignore".contains]]
+line = "__pycache__/"
