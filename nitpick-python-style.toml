@@ -1,0 +1,23 @@
+[nitpick]
+minimum_version = "0.10.0"
+
+[nitpick.styles]
+include = [
+    "./resources/python/37",
+    "./resources/python/poetry",
+    "./resources/python/black",
+    "./resources/python/isort",
+    "./resources/python/pylint",
+    "./resources/python/absent",
+    "./resources/python/bandit",
+    "./resources/python/flake8",
+    "./resources/python/hooks",
+    "./resources/python/mypy",
+    "./resources/python/github-workflow",
+    "./resources/python/autoflake",
+
+    # maybe? "./resources/python/tox",
+    # perhaps? "./resources/python/radon",
+    # perhaps? "./resources/python/sonar-python",
+    # doesn't really fit: "./resources/python/readthedocs",
+]

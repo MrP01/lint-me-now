@@ -1,0 +1,7 @@
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/PyCQA/bandit"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "bandit"
+args = ["--ini", "setup.cfg"]
+exclude = "tests/"
