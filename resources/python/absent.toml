@@ -1,5 +1,6 @@
 [nitpick.files.absent]
 "requirements.txt" = "Install poetry, run 'poetry init' to create pyproject.toml, and move dependencies to it"
+"dev-requirements.txt" = "Install poetry, run 'poetry init' to create pyproject.toml, and move dependencies to it"
 "setup.cfg" = "No need for another config, move values to pyproject.toml"
 ".isort.cfg" = "Move values to pyproject.toml, section [tool.isort]"
 ".pylintrc" = "Move values to pyproject.toml, section [tool.pylint]"

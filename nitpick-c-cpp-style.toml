@@ -1,5 +1,5 @@
 [[".clang-format".contains]]
-line = "ColumnLimit: 150"
+line = "ColumnLimit: 120"
 
 [[".clang-format".contains]]
 line = "AccessModifierOffset: -1"
