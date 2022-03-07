@@ -7,7 +7,7 @@ include = [
   "resources/python/pylint",
   "resources/python/absent",
   "resources/python/bandit",
-  "resources/python/flake8",
+  "resources/python/flakehell",
   "resources/python/hooks",
   "resources/python/mypy",
   "resources/python/github-workflow",

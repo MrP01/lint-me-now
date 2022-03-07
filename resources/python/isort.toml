@@ -1,15 +1,16 @@
-["setup.cfg".isort]
+["pyproject.toml".tool.isort]
 line_length = 150
-skip = ".tox,build"
-known_first_party = "tests"
+profile = "black"
 
 # The configuration below is needed for compatibility with black.
 # https://github.com/python/black#how-black-wraps-lines
 # https://github.com/PyCQA/isort#multi-line-output-modes
-multi_line_output = 3
-include_trailing_comma = true
-force_grid_wrap = 0
-combine_as_imports = true
+# multi_line_output = 3
+# include_trailing_comma = true
+# force_grid_wrap = 0
+# combine_as_imports = true
+# skip = ".tox,build"
+# known_first_party = "tests"
 
 [[".pre-commit-config.yaml".repos]]
 repo = "https://github.com/PyCQA/isort"
