@@ -3,10 +3,10 @@ minimum_version = "0.10.0"
 
 [nitpick.styles]
 include = [
-  "github://MrP01/lint-me-now/resources/any/editorconfig",
-  "github://MrP01/lint-me-now/resources/any/prettier",
-  "github://MrP01/lint-me-now/resources/any/hooks",
-  "github://MrP01/lint-me-now/resources/shell/bashate",
+  "resources/any/editorconfig",
+  "resources/any/prettier",
+  "resources/any/hooks",
+  "resources/shell/bashate",
 
   # TODO: "./resources/any/markdownlint",
   # TODO: "./resources/shell/shellcheck",
