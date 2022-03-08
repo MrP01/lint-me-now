@@ -9,7 +9,7 @@ include = [
   "resources/python/bandit",
   "resources/python/flakeheaven",
   "resources/python/hooks",
-  "resources/python/mypy",
+  "resources/python/pyright",
   "resources/python/github-workflow",
   "resources/python/autoflake",
 

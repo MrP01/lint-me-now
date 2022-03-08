@@ -1,0 +1,13 @@
+[[".pre-commit-config.yaml".repos]]
+repo = "local"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "pyright"
+name = "pyright"
+entry = "pyright"
+language = "node"
+types = ["python"]
+pass_filenames = false
+additional_dependencies = [
+  "pyright"
+]
