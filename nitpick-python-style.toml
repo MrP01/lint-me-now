@@ -10,7 +10,6 @@ include = [
   "resources/python/flakeheaven",
   "resources/python/hooks",
   "resources/python/pyright",
-  "resources/python/github-workflow",
   "resources/python/autoflake",
 
   # maybe? "resources/python/tox",
