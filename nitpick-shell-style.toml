@@ -1,0 +1,5 @@
+[nitpick.styles]
+include = [
+  "resources/shell/bashate",
+  "resources/shell/shellcheck",
+]

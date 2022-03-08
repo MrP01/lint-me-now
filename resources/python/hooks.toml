@@ -13,9 +13,6 @@ id = "python-no-eval"
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "python-no-log-warn"
 
-[[".pre-commit-config.yaml".repos.hooks]]
-id = "rst-backticks"
-
 [[".pre-commit-config.yaml".repos]]
 repo = "https://github.com/pre-commit/pre-commit-hooks"
 
