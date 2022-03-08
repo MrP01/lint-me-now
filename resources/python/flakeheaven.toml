@@ -1,4 +1,4 @@
-["pyproject.toml".tool.flakehell]
+["pyproject.toml".tool.flakeheaven]
 # http://www.pydocstyle.org/en/2.1.1/error_codes.html
 # Ignoring W503: https://github.com/python/black#line-breaks--binary-operators
 # Ignoring "D202 No blank lines allowed after function docstring": black inserts a blank line.
@@ -10,10 +10,10 @@ inline-quotes = "double"
 # This way, the developer has the choice of overriding this style, instead of having lots of plugins installed
 # without being asked.
 [[".pre-commit-config.yaml".repos]]
-repo = "https://github.com/life4/flakehell"
+repo = "https://github.com/flakeheaven/flakeheaven"
 
 [[".pre-commit-config.yaml".repos.hooks]]
-id = "flakehell"
+id = "flakeheaven"
 additional_dependencies = [
   "flake8-blind-except",
   "flake8-bugbear",
