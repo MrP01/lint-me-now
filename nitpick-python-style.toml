@@ -1,6 +1,6 @@
 [nitpick.styles]
 include = [
-  "resources/python/37",
+  "resources/python/39",
   "resources/python/poetry",
   "resources/python/black",
   "resources/python/isort",
