@@ -1,24 +1,46 @@
 [[".gitignore".contains]]
 line = "*.aux"
+[[".gitignore".contains]]
 line = "*.log"
+[[".gitignore".contains]]
 line = "*.idx"
+[[".gitignore".contains]]
 line = "*.out"
+[[".gitignore".contains]]
 line = "*.toc"
+[[".gitignore".contains]]
 line = "*.synctex.gz"
+[[".gitignore".contains]]
 line = "*.synctex(busy)"
+[[".gitignore".contains]]
 line = "*.fdb_latexmk"
+[[".gitignore".contains]]
 line = "*.fls"
+[[".gitignore".contains]]
 line = "*.ilg"
+[[".gitignore".contains]]
 line = "*.ind"
+[[".gitignore".contains]]
 line = "_minted-*"
+[[".gitignore".contains]]
 line = "*.bbl"
+[[".gitignore".contains]]
 line = "*.bcf"
+[[".gitignore".contains]]
 line = "*.blg"
+[[".gitignore".contains]]
 line = "*.lof"
+[[".gitignore".contains]]
 line = "*.lot"
+[[".gitignore".contains]]
 line = "*.nlo"
+[[".gitignore".contains]]
 line = "*.nls"
+[[".gitignore".contains]]
 line = "*.run.xml"
+[[".gitignore".contains]]
 line = ".~lock*"
+[[".gitignore".contains]]
 line = "*.cb"
+[[".gitignore".contains]]
 line = "*.cb2"
