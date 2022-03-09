@@ -12,6 +12,7 @@ repo = "local"
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "pylint"
 name = "pylint"
+entry = "pylint"
 language = "system"
 exclude = "tests/"
 types = ["python"]
