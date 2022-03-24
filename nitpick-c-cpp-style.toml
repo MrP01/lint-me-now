@@ -4,5 +4,11 @@ line = "ColumnLimit: 120"
 [[".clang-format".contains]]
 line = "AccessModifierOffset: -1"
 
+[[".clang-format".contains]]
+line = "AlignAfterOpenBracket: BAS_DontAlign"
+
+[[".clang-format".contains]]
+line = "AlignConsecutiveMacros: false"
+
 [".editorconfig".Makefile]
 indent_style = "tab"
