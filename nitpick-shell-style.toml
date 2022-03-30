@@ -1,5 +1,5 @@
 [nitpick.styles]
-include = [
-  "resources/shell/bashate",
-  "resources/shell/shellcheck",
-]
+include = ["resources/shell/bashate", "resources/shell/shellcheck"]
+
+[".editorconfig"."*Dockerfile"]
+binary_next_line = true
