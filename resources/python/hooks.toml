@@ -5,9 +5,6 @@ repo = "https://github.com/pre-commit/pygrep-hooks"
 id = "python-check-blanket-noqa"
 
 [[".pre-commit-config.yaml".repos.hooks]]
-id = "python-check-mock-methods"
-
-[[".pre-commit-config.yaml".repos.hooks]]
 id = "python-no-eval"
 
 [[".pre-commit-config.yaml".repos.hooks]]
@@ -18,4 +15,3 @@ repo = "https://github.com/asottile/pyupgrade"
 
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "pyupgrade"
-args = ["--py37-plus"]
