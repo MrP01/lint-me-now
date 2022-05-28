@@ -1,4 +1,2 @@
 [nitpick.styles]
-include = [
-  "resources/latex/latex-gitignore.toml"
-]
+include = ["resources/latex/latex-gitignore.toml"]

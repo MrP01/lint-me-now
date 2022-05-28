@@ -3,9 +3,9 @@ include = [
   "resources/any/editorconfig",
   "resources/any/prettier",
   "resources/any/hooks",
-
   # TODO: "resources/any/markdownlint",
   # maybe? "resources/any/commitizen",
+
 ]
 
 [[".gitignore".contains]]

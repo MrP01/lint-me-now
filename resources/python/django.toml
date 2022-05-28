@@ -1,0 +1,13 @@
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/Riverside-Healthcare/djLint"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "djlint-jinja"
+files = "\\.jinja"
+args = ["--reformat", "--lint"]
+
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/thibaudcolas/curlylint"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "curlylint"

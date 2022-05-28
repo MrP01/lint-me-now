@@ -1,4 +1,2 @@
 [nitpick.styles]
-include = [
-  "resources/javascript/package-json",
-]
+include = ["resources/javascript/package-json"]

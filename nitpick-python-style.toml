@@ -1,21 +1,19 @@
 [nitpick.styles]
 include = [
-  "resources/python/39",
   "resources/python/poetry",
   "resources/python/black",
   "resources/python/isort",
   "resources/python/pylint",
   "resources/python/absent",
   "resources/python/bandit",
-  "resources/python/flakeheaven",
   "resources/python/hooks",
   "resources/python/pyright",
   "resources/python/autoflake",
-
   # maybe? "resources/python/tox",
   # perhaps? "resources/python/radon",
   # perhaps? "resources/python/sonar-python",
   # doesn't really fit: "resources/python/readthedocs",
+
 ]
 
 [".editorconfig"."*.py"]

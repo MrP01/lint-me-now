@@ -8,6 +8,4 @@ entry = "pyright"
 language = "node"
 types = ["python"]
 pass_filenames = false
-additional_dependencies = [
-  "pyright"
-]
+additional_dependencies = ["pyright"]
