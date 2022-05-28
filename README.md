@@ -10,6 +10,7 @@ To get started, either add a `pyproject.toml` or `.nitpick.toml` file to your re
 ```toml
 [tool.nitpick]
 style = ["github://MrP01/lint-me-now/nitpick-base-style.toml"]
+
 ```
 
 And feel free to add more styles, such as

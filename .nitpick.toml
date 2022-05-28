@@ -1,4 +1,2 @@
 [tool.nitpick]
-style = [
-  "github://MrP01/lint-me-now/nitpick-base-style.toml"
-]
+style = ["github://MrP01/lint-me-now/nitpick-base-style.toml"]
