@@ -1,10 +1,14 @@
 [[".pre-commit-config.yaml".repos]]
-repo = "https://github.com/PyCQA/bandit"
+repo = "local"
 
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "bandit"
+name = "bandit"
+entry = "bandit"
+language = "system"
 args = ["-c", "pyproject.toml"]
 exclude = "tests/"
+types = ["python"]
 
 ["pyproject.toml".tool.bandit]
 skips = ["B101"]
