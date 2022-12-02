@@ -1,0 +1,9 @@
+[[".pre-commit-config.yaml".repos]]
+repo = "local"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "latex-format-all"
+name = "latex-format-all"
+entry = "latex-format-all"
+language = "system"
+types = ["tex"]
