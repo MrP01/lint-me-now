@@ -9,12 +9,12 @@ language = "system"
 exclude = "tests/"
 types = ["python"]
 
-["pyproject.toml".tool.pylint.REPORTS]
+["pyproject.toml".tool.pylint.reports]
 # Set the output format. Available formats are text, parseable, colorized, msvs (visual studio) and html.
 # You can also give a reporter class, eg mypackage.mymodule.MyReporterClass.
 output-format = "colorized"
 
-# ["pyproject.toml".tool.pylint."MESSAGES CONTROL"]
+# ["pyproject.toml".tool.pylint."messages control"]
 # disable = [
 #   "invalid-name",
 #   "missing-module-docstring",
@@ -24,12 +24,12 @@ output-format = "colorized"
 #   "wildcard-import",
 #   "unused-wildcard-import",
 # ]
-# ["pyproject.toml".tool.pylint.BASIC]
+# ["pyproject.toml".tool.pylint.basic]
 # # List of builtins function names that should not be used, separated by a comma
 # bad-functions = "map,filter"
 # # Good variable names which should always be accepted, separated by a comma
 # good-names = "i,j,k,e,ex,Run,_,id,rv,c"
-["pyproject.toml".tool.pylint.FORMAT]
+["pyproject.toml".tool.pylint.format]
 # Maximum number of characters on a single line.
 max-line-length = 120
 # Maximum number of lines in a module

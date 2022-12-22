@@ -17,7 +17,7 @@ line = "*.toc"
 line = "*.synctex.gz"
 
 [[".gitignore".contains]]
-line = "*.synctex(busy)"
+line = "*.synctex*busy*"
 
 [[".gitignore".contains]]
 line = "*.fdb_latexmk"
