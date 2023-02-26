@@ -7,6 +7,9 @@ line = "AccessModifierOffset: -1"
 [[".clang-format".contains]]
 line = "AlignAfterOpenBracket: DontAlign"
 
+[[".clang-format".contains]]
+line = "IndentCaseLabels: true"
+
 [".editorconfig".Makefile]
 indent_style = "tab"
 
