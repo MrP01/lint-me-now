@@ -6,5 +6,4 @@
 ".pylintrc" = "Move values to pyproject.toml, section [tool.pylint]"
 "Pipfile" = "Use pyproject.toml instead"
 "Pipfile.lock" = "Use pyproject.toml instead"
-".venv" = "Not needed"
 ".pyup.yml" = "Configure safety instead: https://github.com/pyupio/safety#using-safety-with-a-ci-service"
