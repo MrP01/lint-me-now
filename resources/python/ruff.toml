@@ -1,10 +1,15 @@
 ["pyproject.toml".tool.ruff]
 line-length = 120
-select = ["I001"]
+lint.select = ["ALL"]
+lint.ignore = ["F403", "F405", "E731", "ERA001", "N999", "COM812", "TID252"]
 exclude = [".git", "**/__pycache__"]
 
 [[".pre-commit-config.yaml".repos]]
-repo = "https://github.com/charliermarsh/ruff-pre-commit"
+repo = "https://github.com/astral-sh/ruff-pre-commit"
 
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "ruff"
+args = ["--fix"]
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "ruff-format"

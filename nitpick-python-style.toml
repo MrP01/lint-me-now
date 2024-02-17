@@ -1,7 +1,7 @@
 [nitpick.styles]
 include = [
   "resources/python/poetry",
-  "resources/python/black",
+  # "resources/python/black",
   "resources/python/ruff",
   # "resources/python/isort",
   # "resources/python/pylint",
