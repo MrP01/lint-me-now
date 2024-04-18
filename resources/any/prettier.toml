@@ -1,6 +1,10 @@
 [[".pre-commit-config.yaml".repos]]
-repo = "https://github.com/pre-commit/mirrors-prettier"
+repo = "local"
 
 [[".pre-commit-config.yaml".repos.hooks]]
 id = "prettier"
-stages = ["commit"]
+name = "prettier"
+entry = "prettier --write --ignore-unknown"
+language = "system"
+types = ["text"]
+pass_filenames = false

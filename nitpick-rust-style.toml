@@ -5,3 +5,11 @@ group_imports = "StdExternalCrate"
 # reorder_imports = true -> is enabled by default
 # wrap_comments = true -> could do at some point
 
+[[".pre-commit-config.yaml".repos]]
+repo = "https://github.com/doublify/pre-commit-rust"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "fmt"
+
+[[".pre-commit-config.yaml".repos.hooks]]
+id = "cargo-check"
