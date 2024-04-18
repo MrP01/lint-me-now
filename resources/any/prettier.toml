@@ -7,4 +7,3 @@ name = "prettier"
 entry = "prettier --write --ignore-unknown"
 language = "system"
 types = ["text"]
-pass_filenames = false
